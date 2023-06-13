@@ -107,7 +107,7 @@ To install this project, run
 
 ```sh
 
-npm install
+bundle install
 
 ```
 
@@ -117,9 +117,8 @@ npm install
 To run tests, run the following command:
 
 ```sh
-Run "npx hint ."
-Run "npx stylelint "**/*.{css,scss} --fix " to fix linters
-Run "npx eslint . --fix to fix linters"
+
+Run "rubocop --fix to fix linters"
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
